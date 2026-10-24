@@ -1,0 +1,121 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import { Ingredient } from '../types';
+
+export const ingredients: Ingredient[] = [
+  {
+    id: 'bergamot',
+    name: 'Bergamot',
+    description: 'A fragrant citrus fruit from Calabria, Italy, that delivers a sparkling, crisp, and slightly spicy sweetness.',
+    benefits: 'Calms anxiety, boosts mood, and adds an immediate bright, elegant opening to fragrances.',
+    family: 'Citrus',
+    color: '#a3e635',
+  },
+  {
+    id: 'rose',
+    name: 'Rose',
+    description: 'The queen of flowers, primarily Turkish or Damask rose, hand-harvested at dawn to preserve its rich, honeyed floral essence.',
+    benefits: 'Induces feelings of romance, elevates elegance, and creates deep floral layers.',
+    family: 'Floral',
+    color: '#fb7185',
+  },
+  {
+    id: 'jasmine',
+    name: 'Jasmine',
+    description: 'A night-blooming white floral absolute. Intoxicatingly sweet, exotic, and highly sensual.',
+    benefits: 'Enhances self-confidence, relieves stress, and gives a velvety warmth to fragrance hearts.',
+    family: 'Floral',
+    color: '#fef08a',
+  },
+  {
+    id: 'oud',
+    name: 'Oud',
+    description: 'Known as liquid gold, Oud is derived from the resinous heartwood of infected Aquilaria trees. Complex, rich, woody, and prestigious.',
+    benefits: 'Soothes the mind, adds unmatched longevity, and symbolizes absolute royalty and luxury.',
+    family: 'Woody',
+    color: '#7c2d12',
+  },
+  {
+    id: 'sandalwood',
+    name: 'Sandalwood',
+    description: 'Creamy, warm, and milky wood sourced from the forests of Mysore, India. Deeply classic and long-lasting.',
+    benefits: 'Promotes mental clarity, instills calmness, and serves as an exceptional smooth fixing base.',
+    family: 'Woody',
+    color: '#d97706',
+  },
+  {
+    id: 'amber',
+    name: 'Amber',
+    description: 'A blend of warm resins, vanilla, and labdanum creating a golden, powdery, sweet, and comforting shield.',
+    benefits: 'Provides an aura of cozy warmth, increases allure, and offers rich, enduring trail properties.',
+    family: 'Amber',
+    color: '#ea580c',
+  },
+  {
+    id: 'musk',
+    name: 'Musk',
+    description: 'A clean, soft, second-skin aroma. Modern white musk offers a powdery, velvety, and pure foundation.',
+    benefits: 'Harmonizes other ingredients, melts into the skin for intimacy, and multiplies longevity.',
+    family: 'Fresh',
+    color: '#e2e8f0',
+  },
+  {
+    id: 'vanilla',
+    name: 'Vanilla',
+    description: 'Grown primarily in Madagascar, this is a premium dark vanilla pod absolute. Warm, rich, sweet, and highly comforting.',
+    benefits: 'Reduces nervous tension, comforts the senses, and leaves a delicious, magnetic trail.',
+    family: 'Amber',
+    color: '#fef3c7',
+  },
+  {
+    id: 'cedarwood',
+    name: 'Cedarwood',
+    description: 'Dry, crisp, clean wood reminiscent of pencil shavings and majestic alpine forests.',
+    benefits: 'Grounds the fragrance profile, brings a masculine or structural strength, and aids concentration.',
+    family: 'Woody',
+    color: '#854d0e',
+  },
+  {
+    id: 'patchouli',
+    name: 'Patchouli',
+    description: 'An exotic herb that delivers a dark, earthy, sweet, and slightly woody-minty character.',
+    benefits: 'Calms hyperactive thoughts, adds depth and sophistication, and enhances woody profiles.',
+    family: 'Woody',
+    color: '#15803d',
+  },
+  {
+    id: 'vetiver',
+    name: 'Vetiver',
+    description: 'A rich grass from Haiti with smoky, earthy, green, and slightly citrus-woody roots.',
+    benefits: 'Grounding, reduces mental fatigue, and gives a highly refined, smoky classic quality.',
+    family: 'Woody',
+    color: '#16a34a',
+  },
+  {
+    id: 'lavender',
+    name: 'Lavender',
+    description: 'High-altitude French lavender, offering a clean, herbaceous, sweet-floral, and aromatic profile.',
+    benefits: 'Deeply relaxing, relieves stress, and gives a clean, grooming, aristocratic opening.',
+    family: 'Fresh',
+    color: '#c084fc',
+  },
+  {
+    id: 'saffron',
+    name: 'Saffron',
+    description: 'The golden spice of Kashmir. Rich, leathery, bittersweet, and earthy with a metallic luster.',
+    benefits: 'Exudes opulence, enriches amber accords, and leaves a distinctive premium signature.',
+    family: 'Spicy',
+    color: '#dc2626',
+  },
+  {
+    id: 'tonka-bean',
+    name: 'Tonka Bean',
+    description: 'South American seeds rich in coumarin, delivering notes of warm almond, vanilla, and fresh hay.',
+    benefits: 'Warmly sedative, rounds out sharp spices, and acts as a gorgeous gourmand facet.',
+    family: 'Amber',
+    color: '#451a03',
+  },
+];
